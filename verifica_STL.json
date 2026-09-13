@@ -1,0 +1,327 @@
+[
+  {
+    "file": "pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
+    "triangles": 10270,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 212546.0380851204,
+    "bounds_mm": [
+      [
+        -72.97505950927734,
+        -25.950119018554688,
+        0.0
+      ],
+      [
+        72.97505950927734,
+        25.950119018554688,
+        98.00000762939453
+      ]
+    ],
+    "dimensions_mm": [
+      145.9501190185547,
+      51.900238037109375,
+      98.00000762939453
+    ],
+    "sha256": "ae7723b7bf568478061f2c80cebfc8e0dc4887ea792b40a8ee8c088b5c4e5a0f"
+  },
+  {
+    "file": "pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
+    "triangles": 2136,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 49144.03510817508,
+    "bounds_mm": [
+      [
+        -30.0,
+        -22.975067138671875,
+        0.0
+      ],
+      [
+        30.0,
+        22.975051879882812,
+        21.0
+      ]
+    ],
+    "dimensions_mm": [
+      60.0,
+      45.95011901855469,
+      21.0
+    ],
+    "sha256": "4868fb47f640955f527e09e202f832763c995bed70019043ae582ce3c59899ce"
+  },
+  {
+    "file": "pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
+    "triangles": 2272,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 37123.93191741487,
+    "bounds_mm": [
+      [
+        -75.3563003540039,
+        -76.01069641113281,
+        0.0
+      ],
+      [
+        75.3563003540039,
+        76.01071166992188,
+        26.0
+      ]
+    ],
+    "dimensions_mm": [
+      150.7126007080078,
+      152.0214080810547,
+      26.0
+    ],
+    "sha256": "7de7bdef404d915b1fe7985836bb8e4a4775dcacdd216490820a0f80b6b60ade"
+  },
+  {
+    "file": "pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
+    "triangles": 2294,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 37064.669628589734,
+    "bounds_mm": [
+      [
+        -75.3563003540039,
+        -76.01069641113281,
+        0.0
+      ],
+      [
+        75.35629272460938,
+        76.01071166992188,
+        26.0
+      ]
+    ],
+    "dimensions_mm": [
+      150.71259307861328,
+      152.0214080810547,
+      26.0
+    ],
+    "sha256": "bb2f2f6ff6700ca6ce0fb26dbb3c13ca36f277970a65b4ae1ea321a3d2cb67c4"
+  },
+  {
+    "file": "pezzi_singoli/S01_schienale_a_y_x1.stl",
+    "triangles": 7792,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 245231.9018156435,
+    "bounds_mm": [
+      [
+        -70.95010375976562,
+        -16.744125366210938,
+        0.0
+      ],
+      [
+        70.95011901855469,
+        16.744110107421875,
+        170.0
+      ]
+    ],
+    "dimensions_mm": [
+      141.9002227783203,
+      33.48823547363281,
+      170.0
+    ],
+    "sha256": "061e339f88d2b3dc1bc81b4a074b5f8b11bdc42226a2d58a0e18ab6fe4923f98"
+  },
+  {
+    "file": "pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
+    "triangles": 7856,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 539120.3946434458,
+    "bounds_mm": [
+      [
+        -61.441558837890625,
+        -41.730712890625,
+        0.0
+      ],
+      [
+        61.441558837890625,
+        41.730712890625,
+        170.0
+      ]
+    ],
+    "dimensions_mm": [
+      122.88311767578125,
+      83.46142578125,
+      170.0
+    ],
+    "sha256": "10a5ed875d5d063c4a8e43d2da4b2c33fb2dc77baf84be9eb1e2bb8d0b27ae26"
+  },
+  {
+    "file": "pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
+    "triangles": 11154,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 292503.0477756552,
+    "bounds_mm": [
+      [
+        -61.441558837890625,
+        -28.922439575195312,
+        0.0
+      ],
+      [
+        61.441558837890625,
+        28.922454833984375,
+        170.0
+      ]
+    ],
+    "dimensions_mm": [
+      122.88311767578125,
+      57.84489440917969,
+      170.0
+    ],
+    "sha256": "01afd63601a0d7696dbf317c62619eed51674fc7b3a8901486ee6ab14d3a6909"
+  },
+  {
+    "file": "pezzi_singoli/A01_appoggio_sinistro_x1.stl",
+    "triangles": 3778,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 119478.45988090207,
+    "bounds_mm": [
+      [
+        -39.1163330078125,
+        -41.30982208251953,
+        0.0
+      ],
+      [
+        39.1163330078125,
+        41.30982208251953,
+        56.66667938232422
+      ]
+    ],
+    "dimensions_mm": [
+      78.232666015625,
+      82.61964416503906,
+      56.66667938232422
+    ],
+    "sha256": "b99feb8d0a4f4e1002f0bc9da04de5ecbd744a3e1af02581a0b136e0d60ba62f"
+  },
+  {
+    "file": "pezzi_singoli/A02_appoggio_destro_x1.stl",
+    "triangles": 3798,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 119478.3578061079,
+    "bounds_mm": [
+      [
+        -39.11631774902344,
+        -41.30982208251953,
+        0.0
+      ],
+      [
+        39.11631774902344,
+        41.30982208251953,
+        56.66667938232422
+      ]
+    ],
+    "dimensions_mm": [
+      78.23263549804688,
+      82.61964416503906,
+      56.66667938232422
+    ],
+    "sha256": "36bdbfc62ca49cc4be0453a60cc956a0be6ddfec4d3c25364e3f32ea119785ae"
+  },
+  {
+    "file": "prove/provino_A_x1.stl",
+    "triangles": 776,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 7406.264878538955,
+    "bounds_mm": [
+      [
+        -7.9750590324401855,
+        -11.0,
+        0.0
+      ],
+      [
+        7.975058555603027,
+        11.0,
+        35.0
+      ]
+    ],
+    "dimensions_mm": [
+      15.950117588043213,
+      22.0,
+      35.0
+    ],
+    "sha256": "122429bf1799cb5c5b46f8d8e08ec31556260db7f3b7cd7e7a6eb2b42192cdfd"
+  },
+  {
+    "file": "prove/provino_B_x1.stl",
+    "triangles": 776,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 7663.788352322238,
+    "bounds_mm": [
+      [
+        -7.975058555603027,
+        -11.0,
+        0.0
+      ],
+      [
+        7.975058555603027,
+        11.0,
+        35.0
+      ]
+    ],
+    "dimensions_mm": [
+      15.950117111206055,
+      22.0,
+      35.0
+    ],
+    "sha256": "1add78ffb3dd164ee1a94ab16b5fc3504433302dabcdbe788190f58a8c8a4560"
+  },
+  {
+    "file": "supporto_assemblato.stl",
+    "triangles": 51350,
+    "nonmanifold_edges": 0,
+    "components": 9,
+    "volume_mm3": 1651690.841320714,
+    "bounds_mm": [
+      [
+        -68.2498550415039,
+        78.74266052246094,
+        0.0
+      ],
+      [
+        238.24984741210938,
+        396.0712890625,
+        386.9330139160156
+      ]
+    ],
+    "dimensions_mm": [
+      306.4997024536133,
+      317.32862854003906,
+      386.9330139160156
+    ],
+    "sha256": "b4dd072e1178cc52d4a2e155fb876573e24a546dad3179915108fe0c65c9e7ea"
+  },
+  {
+    "file": "tutti_i_pezzi_separati.stl",
+    "triangles": 51342,
+    "nonmanifold_edges": 0,
+    "components": 9,
+    "volume_mm3": 1651690.8439300042,
+    "bounds_mm": [
+      [
+        -75.3563003540039,
+        -76.01069641113281,
+        0.0
+      ],
+      [
+        475.3562927246094,
+        441.309814453125,
+        170.0
+      ]
+    ],
+    "dimensions_mm": [
+      550.7125930786133,
+      517.3205108642578,
+      170.0
+    ],
+    "sha256": "4259e665e351911e61defd2bf6f8c6239140f489d9104846a7e15a4be7e06853"
+  }
+]

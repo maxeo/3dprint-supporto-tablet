@@ -1,0 +1,16 @@
+V7 — 9 MODULI, UNA COPIA CIASCUNO
+
+1 × B03_raccordo_centrale_blu_x1.stl
+1 × B01_piede_anteriore_corto_x1.stl
+1 × B04_gamba_posteriore_sinistra_x1.stl
+1 × B05_gamba_posteriore_destra_x1.stl
+1 × S01_schienale_a_y_x1.stl
+1 × S02_schienale_superiore_posteriore_x1.stl
+1 × S03_appoggio_superiore_anteriore_x1.stl
+1 × A01_appoggio_sinistro_x1.stl
+1 × A02_appoggio_destro_x1.stl
+
+PROVINI: 1 × provino_A_x1.stl; 1 × provino_B_x1.stl
+Verde: B01/B04/B05. Blu: B03/S01/S02. Giallo: S03/A01/A02. Usare il nuovo B03.
+
+TARATURA G015 SU TUTTI I PEZZI E I PROVINI STANDARD. Reimportare i file nello slicer.

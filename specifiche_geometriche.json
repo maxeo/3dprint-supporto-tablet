@@ -1,0 +1,1008 @@
+{
+  "scene": "V7_tutti_pioli_maggiorati_015.001",
+  "master": "V7_G015_master",
+  "width_mm": 306.4997024536133,
+  "contact_height_mm": 220,
+  "parts": [
+    {
+      "id": "B03",
+      "name": "V7_G015_B03.001",
+      "label": "Raccordo centrale blu",
+      "group": "Schienale",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 212546.03272857203,
+      "bounds": [
+        [
+          36.0,
+          134.0
+        ],
+        [
+          204.0498809814453,
+          255.9501190185547
+        ],
+        [
+          0.0,
+          145.9501190185547
+        ]
+      ],
+      "file": "pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        145.95,
+        51.9,
+        98.0
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "B01",
+      "name": "V7_G015_B01.001",
+      "label": "Piede anteriore corto",
+      "group": "Base",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 49144.035146206836,
+      "bounds": [
+        [
+          55.0,
+          115.0
+        ],
+        [
+          170.0,
+          215.9501190185547
+        ],
+        [
+          0.0,
+          21.0
+        ]
+      ],
+      "file": "pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        60.0,
+        45.95,
+        21.0
+      ],
+      "print_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "V7_G015_B04.001",
+      "label": "Gamba posteriore sinistra",
+      "group": "Base",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 37123.93180168255,
+      "bounds": [
+        [
+          -68.2498550415039,
+          82.4627456665039
+        ],
+        [
+          244.0498809814453,
+          396.0712890625
+        ],
+        [
+          0.0,
+          26.0
+        ]
+      ],
+      "file": "pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        150.713,
+        152.021,
+        26.0
+      ],
+      "print_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "B05",
+      "name": "V7_G015_B05.001",
+      "label": "Gamba posteriore destra",
+      "group": "Base",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 37064.669649498646,
+      "bounds": [
+        [
+          87.5372543334961,
+          238.24984741210938
+        ],
+        [
+          244.0498809814453,
+          396.0712890625
+        ],
+        [
+          0.0,
+          26.0
+        ]
+      ],
+      "file": "pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        150.713,
+        152.021,
+        26.0
+      ],
+      "print_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "S01",
+      "name": "V7_G015_S01.001",
+      "label": "Schienale a Y",
+      "group": "Schienale",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 245231.88656583067,
+      "bounds": [
+        [
+          0.0,
+          170.0
+        ],
+        [
+          233.0117645263672,
+          266.5
+        ],
+        [
+          134.0498809814453,
+          275.9501037597656
+        ]
+      ],
+      "file": "pezzi_singoli/S01_schienale_a_y_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        141.9,
+        33.488,
+        170.0
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "V7_G015_S02.001",
+      "label": "Schienale superiore posteriore",
+      "group": "Schienale",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 541000.3451906118,
+      "bounds": [
+        [
+          0.0,
+          170.0
+        ],
+        [
+          183.03857421875,
+          266.5
+        ],
+        [
+          264.0498962402344,
+          386.9330139160156
+        ]
+      ],
+      "file": "pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        122.883,
+        83.461,
+        170.0
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "V7_G015_S03.001",
+      "label": "Appoggio superiore anteriore",
+      "group": "Appoggio",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 292503.05205152294,
+      "bounds": [
+        [
+          0.0,
+          170.0
+        ],
+        [
+          138.58213806152344,
+          196.42703247070312
+        ],
+        [
+          264.0498962402344,
+          386.9330139160156
+        ]
+      ],
+      "file": "pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        122.883,
+        57.845,
+        170.0
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "A01",
+      "name": "V7_G015_A01.001",
+      "label": "Appoggio sinistro",
+      "group": "Appoggio",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 119478.45560066041,
+      "bounds": [
+        [
+          0.0,
+          56.66667556762695
+        ],
+        [
+          78.74269104003906,
+          161.36233520507812
+        ],
+        [
+          197.71743774414062,
+          275.9501037597656
+        ]
+      ],
+      "file": "pezzi_singoli/A01_appoggio_sinistro_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        78.233,
+        82.62,
+        56.667
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "V7_G015_A02.001",
+      "label": "Appoggio destro",
+      "group": "Appoggio",
+      "nonmanifold": 0,
+      "components": 1,
+      "volume": 119478.37243300604,
+      "bounds": [
+        [
+          113.33332061767578,
+          170.0
+        ],
+        [
+          78.74266052246094,
+          161.3623046875
+        ],
+        [
+          197.71746826171875,
+          275.9501037597656
+        ]
+      ],
+      "file": "pezzi_singoli/A02_appoggio_destro_x1.stl",
+      "quantity": 1,
+      "dimensions_mm": [
+        78.233,
+        82.62,
+        56.667
+      ],
+      "print_rotation_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "id": "G01",
+      "type": "double_jigsaw",
+      "parent": "B03",
+      "child": "B01",
+      "axis": 1,
+      "plane": 210,
+      "center": 12,
+      "normal_sign": 1,
+      "male_x_ranges": [
+        [
+          63,
+          109
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          60.8,
+          109.2
+        ]
+      ],
+      "slot_x": [
+        63,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        8.4,
+        15.6
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G02",
+      "type": "double_jigsaw",
+      "parent": "B03",
+      "child": "B04",
+      "axis": 1,
+      "plane": 250,
+      "center": 12,
+      "normal_sign": -1,
+      "male_x_ranges": [
+        [
+          56,
+          79
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          55.8,
+          79.2
+        ]
+      ],
+      "slot_x": [
+        -1,
+        79
+      ],
+      "entry_sign_x": -1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        8.4,
+        15.6
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G03",
+      "type": "double_jigsaw",
+      "parent": "B03",
+      "child": "B05",
+      "axis": 1,
+      "plane": 250,
+      "center": 12,
+      "normal_sign": -1,
+      "male_x_ranges": [
+        [
+          93,
+          114
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          90.8,
+          114.2
+        ]
+      ],
+      "slot_x": [
+        93,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        8.4,
+        15.6
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G04",
+      "type": "double_jigsaw",
+      "parent": "B03",
+      "child": "S01",
+      "axis": 2,
+      "plane": 140,
+      "center": 243,
+      "normal_sign": -1,
+      "male_x_ranges": [
+        [
+          39,
+          77
+        ],
+        [
+          95,
+          132
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          36.8,
+          77.2
+        ],
+        [
+          92.8,
+          133.2
+        ]
+      ],
+      "slot_x": [
+        39,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        239.4,
+        246.6
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G05",
+      "type": "double_jigsaw",
+      "parent": "S01",
+      "child": "S02",
+      "axis": 2,
+      "plane": 270,
+      "center": 257.5,
+      "normal_sign": -1,
+      "male_x_ranges": [
+        [
+          3,
+          56
+        ],
+        [
+          113.4,
+          169
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          0.8,
+          55.866
+        ],
+        [
+          114.134,
+          169.2
+        ]
+      ],
+      "slot_x": [
+        3,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        253.9,
+        261.1
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G06",
+      "type": "double_jigsaw",
+      "parent": "S02",
+      "child": "S03",
+      "axis": 1,
+      "plane": 220,
+      "center": 377.5,
+      "normal_sign": 1,
+      "male_x_ranges": [
+        [
+          3,
+          169
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          0.8,
+          169.2
+        ]
+      ],
+      "slot_x": [
+        3,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        373.9,
+        381.1
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "shear_y_per_z": 0.19217266910573963,
+      "shear_pivot_z": 220,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G07",
+      "type": "double_jigsaw",
+      "parent": "S03",
+      "child": "A01",
+      "axis": 2,
+      "plane": 270,
+      "center": 160.5,
+      "normal_sign": 1,
+      "male_x_ranges": [
+        [
+          1,
+          53.5
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          0.8,
+          55.866
+        ]
+      ],
+      "slot_x": [
+        -1,
+        53.5
+      ],
+      "entry_sign_x": -1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        156.9,
+        164.1
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "shear_y_per_z": 0.19217266910573963,
+      "shear_pivot_z": 220,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    },
+    {
+      "id": "G08",
+      "type": "double_jigsaw",
+      "parent": "S03",
+      "child": "A02",
+      "axis": 2,
+      "plane": 270,
+      "center": 160.5,
+      "normal_sign": 1,
+      "male_x_ranges": [
+        [
+          116.5,
+          169
+        ]
+      ],
+      "reverse_male_x_ranges": [
+        [
+          114.134,
+          169.2
+        ]
+      ],
+      "slot_x": [
+        116.5,
+        171
+      ],
+      "entry_sign_x": 1,
+      "clearance_normal_mm": 0.15,
+      "face_gap_mm": 0.2,
+      "depth_mm": 5.95,
+      "neck_width_mm": 4.3,
+      "lobe_diameter_mm": 5.9,
+      "lobe_centers_u_mm": [
+        156.9,
+        164.1
+      ],
+      "opposed_lobes_per_section": 2,
+      "local_collar_width_mm": 18,
+      "collar_radius_mm": 4,
+      "shear_y_per_z": 0.19217266910573963,
+      "shear_pivot_z": 220,
+      "male_profile_outward_offset_mm": 0.15,
+      "original_slot_offset_mm": 0.3
+    }
+  ],
+  "assembly_order": [
+    "B03",
+    "B01",
+    "B04",
+    "B05",
+    "S01",
+    "S02",
+    "S03",
+    "A01",
+    "A02"
+  ],
+  "double_jigsaw": {
+    "neck_width_mm": 4.3,
+    "lobe_diameter_mm": 5.9,
+    "depth_mm": 5.95,
+    "normal_clearance_mm": 0.15,
+    "face_gap_mm": 0.2,
+    "opposed_lobes_per_section": 2,
+    "lobe_center_spacing_mm": 7.2,
+    "original_slot_offset_mm": 0.3
+  },
+  "base_design": {
+    "shape": "Y",
+    "rear_branches": 2,
+    "front_feet": 1,
+    "tip_thickness_mm": 3.5,
+    "tip_width_mm": 24,
+    "physical_test_performed": false,
+    "parts": [
+      "B01",
+      "B04",
+      "B05"
+    ],
+    "hub": "B03",
+    "rear_length_mm": 240,
+    "rear_paths": [
+      {
+        "id": "B04",
+        "centerline_points_mm": [
+          [
+            85,
+            230
+          ],
+          [
+            67.5,
+            250
+          ],
+          [
+            -0.5500491736434441,
+            264.6096135289305
+          ],
+          [
+            -6.889323099753938,
+            278.20423033448026
+          ],
+          [
+            -56.26127422650337,
+            384.08272120485407
+          ]
+        ],
+        "end_radius_mm": 12,
+        "total_center_to_tip_mm": 240,
+        "low_extension_mm": 131.8239889194423,
+        "outward_rotation_degrees": 25.0
+      },
+      {
+        "id": "B05",
+        "centerline_points_mm": [
+          [
+            85,
+            230
+          ],
+          [
+            102.5,
+            250
+          ],
+          [
+            170.55004917364346,
+            264.6096135289305
+          ],
+          [
+            176.88932309975394,
+            278.20423033448026
+          ],
+          [
+            226.26127422650336,
+            384.08272120485407
+          ]
+        ],
+        "end_radius_mm": 12,
+        "total_center_to_tip_mm": 240,
+        "low_extension_mm": 131.8239889194423,
+        "outward_rotation_degrees": 25.0
+      }
+    ],
+    "front_footprint_mm": [
+      60,
+      40
+    ],
+    "outward_rotation_degrees": 25,
+    "root_width_mm": 30,
+    "root_thickness_mm": 26,
+    "bend_thickness_mm": 6
+  },
+  "upper_width_mm": 170,
+  "revision": "V7: rear feet opened outward by 25 degrees each, descending sections thickened, center-to-tip path 240mm",
+  "coupons": [
+    {
+      "id": "T_A",
+      "file": "prove/provino_A_x1.stl",
+      "dimensions_mm": [
+        15.95,
+        22.0,
+        35.0
+      ]
+    },
+    {
+      "id": "T_B",
+      "file": "prove/provino_B_x1.stl",
+      "dimensions_mm": [
+        15.95,
+        22.0,
+        35.0
+      ]
+    }
+  ],
+  "overall_dimensions_mm": [
+    306.4997024536133,
+    317.32862854003906,
+    386.9330139160156
+  ],
+  "physical_test_performed": false,
+  "upright_adjustment": {
+    "degrees_towards_vertical": 10,
+    "previous_degrees_from_vertical": 22.3370056949548,
+    "degrees_from_vertical": 12.33700715381434,
+    "shear_y_per_z": 0.19217266910573963,
+    "fixed_contact_z_mm": 220,
+    "blue_transition_y_range_mm": [
+      230,
+      245
+    ]
+  },
+  "pin_enlargement_mm": 0.15
+}
