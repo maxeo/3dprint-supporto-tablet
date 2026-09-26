@@ -26,7 +26,7 @@
           145.9501190185547
         ]
       ],
-      "file": "pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
+      "file": "stl/pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         145.95,
@@ -82,7 +82,7 @@
           21.0
         ]
       ],
-      "file": "pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
+      "file": "stl/pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         60.0,
@@ -138,7 +138,7 @@
           26.0
         ]
       ],
-      "file": "pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
+      "file": "stl/pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         150.713,
@@ -194,7 +194,7 @@
           26.0
         ]
       ],
-      "file": "pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
+      "file": "stl/pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         150.713,
@@ -250,7 +250,7 @@
           275.9501037597656
         ]
       ],
-      "file": "pezzi_singoli/S01_schienale_a_y_x1.stl",
+      "file": "stl/pezzi_singoli/S01_schienale_a_y_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         141.9,
@@ -306,7 +306,7 @@
           386.9330139160156
         ]
       ],
-      "file": "pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
+      "file": "stl/pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         122.883,
@@ -362,7 +362,7 @@
           386.9330139160156
         ]
       ],
-      "file": "pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
+      "file": "stl/pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         122.883,
@@ -418,7 +418,7 @@
           275.9501037597656
         ]
       ],
-      "file": "pezzi_singoli/A01_appoggio_sinistro_x1.stl",
+      "file": "stl/pezzi_singoli/A01_appoggio_sinistro_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         78.233,
@@ -474,7 +474,7 @@
           275.9501037597656
         ]
       ],
-      "file": "pezzi_singoli/A02_appoggio_destro_x1.stl",
+      "file": "stl/pezzi_singoli/A02_appoggio_destro_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
         78.233,

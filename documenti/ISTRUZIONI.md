@@ -46,7 +46,7 @@ Destra e sinistra guardando dal lato tablet. Sostenere B03 finché i tre piedi n
 
 ## File e verifica
 
-pezzi_singoli contiene nove STL. tutti_i_pezzi_separati.stl è una disposizione di riferimento, non un solo piatto. supporto_assemblato.stl è il riferimento completo. supporto_22cm.blend contiene scene e colori. La guida offline include esploso, montaggio animato, controlli mouse e schermo intero.
+pezzi_singoli contiene nove STL. stl/tutti_i_pezzi_separati.stl è una disposizione di riferimento, non un solo piatto. stl/supporto_assemblato.stl è il riferimento completo. blender/supporto_22cm.blend contiene scene e colori. La guida offline include esploso, montaggio animato, controlli mouse e schermo intero.
 
 Controlli digitali: 9 moduli chiusi; 36 coppie senza sovrapposizioni; 699 campioni di inserimento; 8 battute; 16 controlli dei lobi. Provini verificati in 9 posizioni. STL ricontrollati dopo l’esportazione. Nessun collaudo fisico eseguito.
 

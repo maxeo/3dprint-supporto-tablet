@@ -9,8 +9,8 @@ La guida online è una copia pubblica di [guida.html](guida.html), pubblicata da
 
 ## Contenuto
 
-- `guida.html`, [ISTRUZIONI.md](ISTRUZIONI.md), `QUANTITA_DA_STAMPARE.txt`: istruzioni, geometria e quantità
-- `pezzi_singoli/`: STL dei 9 pezzi da stampare
-- `supporto_assemblato.stl`, `tutti_i_pezzi_separati.stl`, `supporto_22cm.blend`: modello completo
+- `guida.html`, [documenti/ISTRUZIONI.md](documenti/ISTRUZIONI.md), `documenti/QUANTITA_DA_STAMPARE.txt`: istruzioni, geometria e quantità (misure in `dati/`)
+- `stl/pezzi_singoli/`: STL dei 9 pezzi da stampare
+- `stl/supporto_assemblato.stl`, `stl/tutti_i_pezzi_separati.stl`, `blender/supporto_22cm.blend`: modello completo
 - `prove/`: provini degli incastri
 - `originale/`: modello di partenza

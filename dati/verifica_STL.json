@@ -1,6 +1,6 @@
 [
   {
-    "file": "pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
+    "file": "stl/pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
     "triangles": 10270,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -25,7 +25,7 @@
     "sha256": "ae7723b7bf568478061f2c80cebfc8e0dc4887ea792b40a8ee8c088b5c4e5a0f"
   },
   {
-    "file": "pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
+    "file": "stl/pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
     "triangles": 2136,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -50,7 +50,7 @@
     "sha256": "4868fb47f640955f527e09e202f832763c995bed70019043ae582ce3c59899ce"
   },
   {
-    "file": "pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
+    "file": "stl/pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
     "triangles": 2272,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -75,7 +75,7 @@
     "sha256": "7de7bdef404d915b1fe7985836bb8e4a4775dcacdd216490820a0f80b6b60ade"
   },
   {
-    "file": "pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
+    "file": "stl/pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
     "triangles": 2294,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -100,7 +100,7 @@
     "sha256": "bb2f2f6ff6700ca6ce0fb26dbb3c13ca36f277970a65b4ae1ea321a3d2cb67c4"
   },
   {
-    "file": "pezzi_singoli/S01_schienale_a_y_x1.stl",
+    "file": "stl/pezzi_singoli/S01_schienale_a_y_x1.stl",
     "triangles": 7792,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -125,7 +125,7 @@
     "sha256": "061e339f88d2b3dc1bc81b4a074b5f8b11bdc42226a2d58a0e18ab6fe4923f98"
   },
   {
-    "file": "pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
+    "file": "stl/pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
     "triangles": 7856,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -150,7 +150,7 @@
     "sha256": "10a5ed875d5d063c4a8e43d2da4b2c33fb2dc77baf84be9eb1e2bb8d0b27ae26"
   },
   {
-    "file": "pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
+    "file": "stl/pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
     "triangles": 11154,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -175,7 +175,7 @@
     "sha256": "01afd63601a0d7696dbf317c62619eed51674fc7b3a8901486ee6ab14d3a6909"
   },
   {
-    "file": "pezzi_singoli/A01_appoggio_sinistro_x1.stl",
+    "file": "stl/pezzi_singoli/A01_appoggio_sinistro_x1.stl",
     "triangles": 3778,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -200,7 +200,7 @@
     "sha256": "b99feb8d0a4f4e1002f0bc9da04de5ecbd744a3e1af02581a0b136e0d60ba62f"
   },
   {
-    "file": "pezzi_singoli/A02_appoggio_destro_x1.stl",
+    "file": "stl/pezzi_singoli/A02_appoggio_destro_x1.stl",
     "triangles": 3798,
     "nonmanifold_edges": 0,
     "components": 1,
@@ -275,7 +275,7 @@
     "sha256": "1add78ffb3dd164ee1a94ab16b5fc3504433302dabcdbe788190f58a8c8a4560"
   },
   {
-    "file": "supporto_assemblato.stl",
+    "file": "stl/supporto_assemblato.stl",
     "triangles": 51350,
     "nonmanifold_edges": 0,
     "components": 9,
@@ -300,7 +300,7 @@
     "sha256": "b4dd072e1178cc52d4a2e155fb876573e24a546dad3179915108fe0c65c9e7ea"
   },
   {
-    "file": "tutti_i_pezzi_separati.stl",
+    "file": "stl/tutti_i_pezzi_separati.stl",
     "triangles": 51342,
     "nonmanifold_edges": 0,
     "components": 9,
