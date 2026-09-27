@@ -1,0 +1,166 @@
+{
+ "A03": {
+  "pezzi": [
+   "S03",
+   "A01",
+   "A02"
+  ],
+  "giunti_eliminati": [
+   "G07",
+   "G08"
+  ],
+  "label": "Appoggio unico",
+  "file": "stl/varianti/A03_appoggio_unico_x1.stl",
+  "volume": 532275.7,
+  "volume_pezzi": 531459.9,
+  "riempimento_mm3": 815.8,
+  "componenti": 1,
+  "nonmanifold": 0,
+  "sporgenza_mm": 0.0,
+  "dimensions_mm": [
+   189.216,
+   117.684,
+   170.0
+  ],
+  "bounds": [
+   [
+    0.0,
+    170.0
+   ],
+   [
+    78.743,
+    196.427
+   ],
+   [
+    197.717,
+    386.933
+   ]
+  ],
+  "sbalzi_mm2": 12249,
+  "sbalzi_pezzi_separati_mm2": 14787
+ },
+ "S04": {
+  "pezzi": [
+   "S02",
+   "S03",
+   "A01",
+   "A02"
+  ],
+  "giunti_eliminati": [
+   "G06",
+   "G07",
+   "G08"
+  ],
+  "label": "Testa unica",
+  "file": "stl/varianti/S04_testa_unica_x1.stl",
+  "volume": 1074455.2,
+  "volume_pezzi": 1072460.2,
+  "riempimento_mm3": 1994.9,
+  "componenti": 1,
+  "nonmanifold": 0,
+  "sporgenza_mm": 0.0,
+  "dimensions_mm": [
+   189.216,
+   187.757,
+   170.0
+  ],
+  "bounds": [
+   [
+    0.0,
+    170.0
+   ],
+   [
+    78.743,
+    266.5
+   ],
+   [
+    197.717,
+    386.933
+   ]
+  ],
+  "sbalzi_mm2": 15033,
+  "sbalzi_pezzi_separati_mm2": 21265
+ },
+ "S05": {
+  "pezzi": [
+   "S01",
+   "S02",
+   "S03",
+   "A01",
+   "A02"
+  ],
+  "giunti_eliminati": [
+   "G05",
+   "G06",
+   "G07",
+   "G08"
+  ],
+  "label": "Schienale unico",
+  "file": "stl/varianti/S05_schienale_unico_x1.stl",
+  "volume": 1320398.3,
+  "volume_pezzi": 1317692.1,
+  "riempimento_mm3": 2706.2,
+  "componenti": 1,
+  "nonmanifold": 0,
+  "sporgenza_mm": 0.0,
+  "dimensions_mm": [
+   252.883,
+   187.757,
+   170.0
+  ],
+  "bounds": [
+   [
+    0.0,
+    170.0
+   ],
+   [
+    78.743,
+    266.5
+   ],
+   [
+    134.05,
+    386.933
+   ]
+  ],
+  "sbalzi_mm2": 15059,
+  "sbalzi_pezzi_separati_mm2": 23369
+ },
+ "B06": {
+  "pezzi": [
+   "B03",
+   "B01"
+  ],
+  "giunti_eliminati": [
+   "G01"
+  ],
+  "label": "Raccordo con piede anteriore",
+  "file": "stl/varianti/B06_raccordo_con_piede_x1.stl",
+  "volume": 262061.3,
+  "volume_pezzi": 261690.1,
+  "riempimento_mm3": 371.3,
+  "componenti": 1,
+  "nonmanifold": 0,
+  "sporgenza_mm": 0.0,
+  "dimensions_mm": [
+   145.95,
+   85.95,
+   98.0
+  ],
+  "bounds": [
+   [
+    36.0,
+    134.0
+   ],
+   [
+    170.0,
+    255.95
+   ],
+   [
+    0.0,
+    145.95
+   ]
+  ],
+  "sbalzi_mm2": 5503,
+  "sbalzi_pezzi_separati_mm2": 4169
+ }
+}
