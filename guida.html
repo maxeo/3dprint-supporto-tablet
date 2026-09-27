@@ -18,6 +18,24 @@
 :where(:root[data-theme="dark"]) img:not(.viewer img){filter:brightness(.92)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161214;--ink:#f1eaed;--muted:#b2a4ab;--line:#352c31;--card:#211b1e;--accento-testo:color-mix(in srgb,var(--accent,var(--green,#1b6959)) 55%,#fff);color-scheme:dark}:where(:root:not([data-theme="light"])) button,.fact,.step-detail{background:var(--card)}:where(:root:not([data-theme="light"])) .print-profile,.print-inline{background:var(--bg)}:where(:root:not([data-theme="light"])) .warning{background:#33291a;border-color:#6b5421;color:var(--ink)}:where(:root:not([data-theme="light"])) .badge,.step .num{background:color-mix(in srgb,var(--accent,var(--green,#1b6959)) 28%,var(--card))}:where(:root:not([data-theme="light"])) .map-part{color:#2c2629}:where(:root:not([data-theme="light"])) .motion{background:color-mix(in srgb,var(--accent,var(--green,#1b6959)) 14%,var(--card))}:where(:root:not([data-theme="light"])) a,.eyebrow,.fact b,.badge,.step .num,nav a{color:var(--accento-testo)}:where(:root:not([data-theme="light"])) .download{color:#fff}:where(:root:not([data-theme="light"])) img:not(.viewer img){filter:brightness(.92)}}
 .tema-guida{position:fixed;top:12px;right:12px;z-index:50;display:inline-flex;align-items:center;gap:7px;font:600 13px/1 system-ui,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:8px 12px;box-shadow:0 2px 10px rgba(0,0,0,.12);cursor:pointer}.tema-guida:hover{border-color:var(--accent)}.tema-guida svg{width:15px;height:15px;flex:none}@media print{.tema-guida{display:none}}</style><!--TEMA-FINE-->
+<!--STAMPANTE-INIZIO--><style>.guida-top{position:fixed;top:12px;right:12px;z-index:50;display:flex;gap:8px;align-items:flex-start}
+.guida-top .tema-guida{position:static}
+.stampante-wrap{position:relative}
+.stampante-btn{display:inline-flex;align-items:center;gap:7px;margin:0;font:600 13px/1 system-ui,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:8px 12px;box-shadow:0 2px 10px rgba(0,0,0,.12);cursor:pointer}
+.stampante-btn:hover{border-color:var(--accent)}.stampante-btn svg{width:15px;height:15px;flex:none}.stampante-btn b{font-variant-numeric:tabular-nums}
+.stampante-btn i{display:none;width:8px;height:8px;border-radius:50%;background:#d9573f}.stampante-btn.fuori{border-color:#d9573f}.stampante-btn.fuori i{display:inline-block}
+.stampante-pop{position:absolute;right:0;top:calc(100% + 8px);width:300px;max-width:calc(100vw - 24px);box-sizing:border-box;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:0 16px 40px rgba(0,0,0,.25);font:14px/1.4 system-ui,sans-serif;text-align:left}
+.stampante-pop>b{font-size:15px}.stampante-pop p{font-size:12.5px;color:var(--muted);margin:4px 0 10px}
+.stampante-xyz{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.stampante-xyz label{display:flex;flex-direction:column;gap:3px;font-size:11px;font-weight:800;color:var(--muted)}
+.stampante-pop input,.stampante-pop select{width:100%;box-sizing:border-box;height:32px;margin:0;border:1px solid var(--line);border-radius:8px;padding:4px 8px;font:inherit;font-size:13px;color:var(--ink);background:var(--bg)}
+.stampante-pop input{font-weight:700;font-variant-numeric:tabular-nums}.stampante-pop select{margin-top:8px}
+.stampante-pop .stampante-esito{margin:10px 0 0}.stampante-pop .stampante-esito.fuori{color:#d9573f;font-weight:700}
+.stampante-avviso{border-color:#d9573f!important}.stampante-avviso b{color:#b3412f}
+:where(:root[data-theme="dark"]) .stampante-avviso b{color:#ff8a73}
+@media (prefers-color-scheme:dark){:where(:root:not([data-theme="light"])) .stampante-avviso b{color:#ff8a73}}
+tr.stampante-fuori td:first-child{box-shadow:inset 3px 0 #d9573f}
+.stampante-tag{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:99px;background:#d9573f;color:#fff;font-size:10.5px;font-weight:800;vertical-align:middle;white-space:nowrap}
+@media print{.guida-top{display:none}}</style><!--STAMPANTE-FINE-->
 </head><body><header><div class="eyebrow">V7 · Flashforge Adventurer 5M · PLA</div><h1>Nove pezzi, pioli maggiorati.</h1><p class="intro"><strong>Taratura G015 applicata a tutti gli incastri e ai provini A/B: pioli maggiorati di 0,15 mm sul profilo, sedi invariate.</strong> Tre piedi separati si innestano direttamente nel raccordo blu B03. Le gambe posteriori sono aperte di 25° in più per lato; i tratti inclinati sono rinforzati. Il gruppo arancione è 10° più verticale, con raccordo blu superiore adattato e appoggio sempre a 22 cm. Davanti, piede corto e tozzo; dietro, due gambe da 24 cm dal centro alla punta lungo il braccio, con tratti finali orizzontali spessi 3,5 mm.</p><div class="facts"><span class="fact"><b>306,50 mm</b> larghezza base</span><span class="fact"><b>220 mm</b> quota appoggio</span><span class="fact"><b>9 moduli</b> ×1</span><span class="fact"><b>Double Jigsaw</b> · 0 perni</span></div><nav><a href="#montaggio">Montaggio</a><a href="#mappa">Pezzi</a><a href="#stampe">Stampa</a><a href="#prima">Incastri e provino</a></nav></header><main>
 <noscript><p class="warning">La vista3D richiede JavaScript. Consulta <a href="documenti/ISTRUZIONI.md">le istruzioni complete</a> e <a href="documenti/mappa_pezzi.svg">la mappa</a>.</p></noscript>
 <div class="workspace"><div class="viewer"><div class="viewbar"><button id="assembled" class="active">Assemblato</button><button id="exploded">Esploso</button><button id="labels" aria-pressed="true">Sigle: sì</button><button id="solo" aria-pressed="false">Isola pezzo</button><button id="reset">Ripristina vista</button></div><div class="viewbar camera-controls" aria-label="Controlli della vista"><button id="zoomOut" aria-label="Riduci zoom">−</button><label for="zoomRange">Zoom</label><input id="zoomRange" type="range" min="10" max="1200" step="1" value="100" aria-label="Zoom dal10 al1200 percento"><output id="zoomValue" for="zoomRange">100%</output><button id="zoomIn" aria-label="Aumenta zoom">+</button><button id="fitView">Centra e adatta</button><button id="fullscreen" aria-pressed="false">Schermo intero</button><label for="cameraView">Vista</label><select id="cameraView"><option value="free">Libera</option><option value="iso">Isometrica</option><option value="front">Frontale</option><option value="right">Laterale</option><option value="back">Posteriore</option><option value="top">Dall’alto</option></select></div><div class="canvas-wrap"><canvas id="model" tabindex="0" aria-label="Supporto V7. Tasto sinistro: ruota. Tasto destro: sposta. Rotella o pulsanti: zoom. Frecce: ruota; Maiusc e frecce: sposta; Home: centra."></canvas><div class="view-hint">Sinistro: ruota · Destro: sposta · Rotella: zoom · Clic: seleziona</div></div><div id="viewcaption" class="viewcaption"></div></div><aside class="sidebar"><div id="selection" aria-live="polite"></div><div class="pin-note"><span class="badge">QUOTE DEL MODELLO REALE</span><p>306,50 × 317,33 × 386,93 mm<br>Larghezza × profondità × altezza</p><p>I due piani ocra sostengono il bordo inferiore a 220 mm. La base verde poggia sul tavolo anche negli STL.</p><p class="small">Anteprima semplificata ricavata dai nove solidi V7. L’esploso distanzia i moduli per riconoscerli; il cursore di montaggio mostra il vero verso di scorrimento.</p></div></aside></div>
@@ -103,4 +121,50 @@ b.addEventListener('click',()=>{tema=temi[(temi.findIndex(x=>x.id===tema)+1)%tem
 addEventListener('storage',e=>{if(e.key!=='tema-guide')return;tema=e.newValue||'system';
  if(tema==='system')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=tema;mostra()});
 mostra();document.body.appendChild(b)})();</script><!--TEMA-FINE-->
+<!--STAMPANTE-INIZIO--><script>(()=>{
+"use strict";
+const KEY='stampante-guide',DEF={x:230,y:230,z:250};
+const MODELLI=[['Comune 230 × 230',230,230,250],['Creality Ender-3',220,220,250],['Prusa MK4',250,210,220],['Bambu Lab A1 / P1S / X1',256,256,256],['Bambu Lab A1 mini',180,180,180]];
+const PERM=[[0,1,2],[0,2,1],[1,0,2],[1,2,0],[2,0,1],[2,1,0]];
+const fmt=v=>Number(v).toLocaleString('it-IT',{maximumFractionDigits:1});
+const cbs=[];
+function get(){try{const b=JSON.parse(localStorage.getItem(KEY)||'null');if(b&&['x','y','z'].every(k=>b[k]>0))return b}catch(_){}return {...DEF}}
+function set(b){try{localStorage.setItem(KEY,JSON.stringify(b))}catch(_){}update()}
+// Un pezzo entra se esiste un'orientazione a 90° con ogni misura entro l'area.
+function fits(d,b=get()){const B=[b.x,b.y,b.z];return PERM.some(o=>o.every((a,k)=>d[a]<=B[k]+1e-6))}
+const parti=()=>typeof DATA!=='undefined'&&DATA&&Array.isArray(DATA.parts)?DATA.parts.filter(p=>Array.isArray(p.dims)&&!p.ghost):[];
+const testo=b=>`${fmt(b.x)} × ${fmt(b.y)} × ${fmt(b.z)} mm`;
+let top,btn,pop,avviso;
+function check(){const b=get(),fuori=parti().filter(p=>!fits(p.dims,b));
+  if(btn){btn.querySelector('b').textContent=`${fmt(b.x)} × ${fmt(b.y)}`;btn.classList.toggle('fuori',fuori.length>0);
+    btn.title=fuori.length?`Area di stampa ${testo(b)}: ${fuori.length} pezzi non entrano`:`Area di stampa ${testo(b)}`;
+    const e=pop.querySelector('.stampante-esito');e.textContent=fuori.length?`Non entrano: ${fuori.map(p=>p.id).join(', ')}.`:(parti().length?'Tutti i pezzi entrano.':'');e.classList.toggle('fuori',fuori.length>0)}
+  if(avviso){avviso.hidden=!fuori.length;avviso.innerHTML=fuori.length?`<b>Attenzione: ${fuori.length===1?'un pezzo non entra':fuori.length+' pezzi non entrano'} nell’area di stampa ${testo(b)}.</b> ${fuori.map(p=>`${p.id}${p.label&&p.label!==p.id?' '+p.label:''} (${p.dims.map(fmt).join(' × ')} mm)`).join(', ')}. Scala o dividi questi pezzi, oppure imposta la tua stampante con il pulsante <i>Stampante</i> in alto.`:''}
+  const ids=new Set(fuori.map(p=>p.id));
+  document.querySelectorAll('tr[data-id]').forEach(tr=>{const f=ids.has(tr.dataset.id);tr.classList.toggle('stampante-fuori',f);let t=tr.querySelector('.stampante-tag');
+    if(f&&!t){t=document.createElement('span');t.className='stampante-tag';t.textContent='non entra';(tr.children[1]||tr.children[0]).appendChild(t)}else if(!f&&t)t.remove()});
+  return fuori}
+function update(){check();for(const cb of cbs)try{cb(get())}catch(e){console.error(e)}}
+function monta(){
+  top=document.querySelector('.guida-top');if(!top){top=document.createElement('div');top.className='guida-top';document.body.appendChild(top)}
+  const w=document.createElement('div');w.className='stampante-wrap';
+  w.innerHTML=`<button type="button" class="stampante-btn" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 21h10M9 17v4M15 17v4"/></svg>Stampante <b></b><i></i></button><div class="stampante-pop" hidden><b>Area di stampa</b><p>Dimensioni massime della tua stampante, in mm. Vale per tutte le guide: serve a segnalare i pezzi che non entrano.</p><div class="stampante-xyz">${['x','y','z'].map(k=>`<label><span>${k.toUpperCase()}</span><input data-k="${k}" type="number" min="50" max="2000" step="1" inputmode="numeric"></label>`).join('')}</div><select aria-label="Stampanti comuni"><option value="">Stampanti comuni…</option>${MODELLI.map((m,i)=>`<option value="${i}">${m[0]} · ${m[1]} × ${m[2]} × ${m[3]}</option>`).join('')}</select><p class="stampante-esito"></p></div>`;
+  top.insertBefore(w,top.firstChild);btn=w.querySelector('button');pop=w.querySelector('.stampante-pop');
+  const inputs=[...pop.querySelectorAll('input')],carica=()=>{const b=get();inputs.forEach(i=>i.value=b[i.dataset.k])};carica();
+  inputs.forEach(i=>i.addEventListener('input',()=>{const v=Number(i.value);if(v>0)set({...get(),[i.dataset.k]:v})}));
+  pop.querySelector('select').addEventListener('change',e=>{const m=MODELLI[e.target.value];if(!m)return;set({x:m[1],y:m[2],z:m[3]});carica();e.target.value=''});
+  const mostra=on=>{pop.hidden=!on;btn.setAttribute('aria-expanded',on)};
+  btn.addEventListener('click',e=>{e.stopPropagation();mostra(pop.hidden)});
+  document.addEventListener('click',e=>{if(!pop.hidden&&!w.contains(e.target))mostra(false)});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!pop.hidden){mostra(false);btn.focus()}});
+  // il pulsante del tema (tema.py) va nello stesso contenitore, dopo questo
+  const sposta=()=>{const t=document.querySelector('.tema-guida');if(t&&t.parentNode!==top)top.appendChild(t)};sposta();
+  new MutationObserver(sposta).observe(document.body,{childList:true});
+  const main=document.querySelector('main');avviso=document.createElement('p');avviso.className='warning stampante-avviso';avviso.hidden=true;avviso.setAttribute('role','status');
+  if(main)main.insertBefore(avviso,main.firstChild);
+  addEventListener('storage',e=>{if(e.key===KEY){carica();update()}});
+  check()}
+window.StampanteGuide={get,set,fits,check,onChange:cb=>cbs.push(cb)};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',monta);else monta();
+})();</script><!--STAMPANTE-FINE-->
 </body></html>
