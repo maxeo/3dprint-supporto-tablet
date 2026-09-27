@@ -132,7 +132,8 @@ function get(){try{const b=JSON.parse(localStorage.getItem(KEY)||'null');if(b&&[
 function set(b){try{localStorage.setItem(KEY,JSON.stringify(b))}catch(_){}update()}
 // Un pezzo entra se esiste un'orientazione a 90° con ogni misura entro l'area.
 function fits(d,b=get()){const B=[b.x,b.y,b.z];return PERM.some(o=>o.every((a,k)=>d[a]<=B[k]+1e-6))}
-const parti=()=>typeof DATA!=='undefined'&&DATA&&Array.isArray(DATA.parts)?DATA.parts.filter(p=>Array.isArray(p.dims)&&!p.ghost):[];
+// dims dai builder attuali, dimensions_mm dalle guide generate da uno spec Blender (Supporto per Tablet)
+const parti=()=>typeof DATA!=='undefined'&&DATA&&Array.isArray(DATA.parts)?DATA.parts.filter(p=>!p.ghost).map(p=>({...p,dims:p.dims||p.dimensions_mm})).filter(p=>Array.isArray(p.dims)):[];
 const testo=b=>`${fmt(b.x)} × ${fmt(b.y)} × ${fmt(b.z)} mm`;
 let top,btn,pop,avviso;
 function check(){const b=get(),fuori=parti().filter(p=>!fits(p.dims,b));
