@@ -11,7 +11,7 @@
       "group": "Schienale",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 212546.03272857203,
+      "volume": 212555.55740934116,
       "bounds": [
         [
           36.0,
@@ -29,8 +29,8 @@
       "file": "stl/pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        145.95,
-        51.9,
+        146.199,
+        52.398,
         98.0
       ],
       "print_rotation_matrix": [
@@ -67,7 +67,7 @@
       "group": "Base",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 49144.035146206836,
+      "volume": 49146.41624287054,
       "bounds": [
         [
           55.0,
@@ -86,7 +86,7 @@
       "quantity": 1,
       "dimensions_mm": [
         60.0,
-        45.95,
+        46.199,
         21.0
       ],
       "print_rotation_matrix": [
@@ -123,7 +123,7 @@
       "group": "Base",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 37123.93180168255,
+      "volume": 37126.31301092641,
       "bounds": [
         [
           -68.2498550415039,
@@ -142,7 +142,7 @@
       "quantity": 1,
       "dimensions_mm": [
         150.713,
-        152.021,
+        152.27,
         26.0
       ],
       "print_rotation_matrix": [
@@ -179,7 +179,7 @@
       "group": "Base",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 37064.669649498646,
+      "volume": 37067.05072836615,
       "bounds": [
         [
           87.5372543334961,
@@ -198,7 +198,7 @@
       "quantity": 1,
       "dimensions_mm": [
         150.713,
-        152.021,
+        152.27,
         26.0
       ],
       "print_rotation_matrix": [
@@ -235,7 +235,7 @@
       "group": "Schienale",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 245231.88656583067,
+      "volume": 245236.65006823375,
       "bounds": [
         [
           0.0,
@@ -253,7 +253,7 @@
       "file": "stl/pezzi_singoli/S01_schienale_a_y_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        141.9,
+        142.398,
         33.488,
         170.0
       ],
@@ -291,7 +291,7 @@
       "group": "Schienale",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 541000.3451906118,
+      "volume": 539125.1624303183,
       "bounds": [
         [
           0.0,
@@ -309,8 +309,8 @@
       "file": "stl/pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        122.883,
-        83.461,
+        123.132,
+        83.664,
         170.0
       ],
       "print_rotation_matrix": [
@@ -347,7 +347,7 @@
       "group": "Appoggio",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 292503.05205152294,
+      "volume": 292510.19532023073,
       "bounds": [
         [
           0.0,
@@ -365,8 +365,8 @@
       "file": "stl/pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        122.883,
-        57.845,
+        123.132,
+        58.048,
         170.0
       ],
       "print_rotation_matrix": [
@@ -403,7 +403,7 @@
       "group": "Appoggio",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 119478.45560066041,
+      "volume": 119480.84094847969,
       "bounds": [
         [
           0.0,
@@ -421,7 +421,7 @@
       "file": "stl/pezzi_singoli/A01_appoggio_sinistro_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        78.233,
+        78.482,
         82.62,
         56.667
       ],
@@ -459,7 +459,7 @@
       "group": "Appoggio",
       "nonmanifold": 0,
       "components": 1,
-      "volume": 119478.37243300604,
+      "volume": 119480.7529492258,
       "bounds": [
         [
           113.33332061767578,
@@ -477,7 +477,7 @@
       "file": "stl/pezzi_singoli/A02_appoggio_destro_x1.stl",
       "quantity": 1,
       "dimensions_mm": [
-        78.233,
+        78.482,
         82.62,
         56.667
       ],
@@ -1004,5 +1004,26 @@
       245
     ]
   },
-  "pin_enlargement_mm": 0.15
+  "pin_enlargement_mm": 0.15,
+  "crush_ribs": {
+    "name": "G015CR",
+    "per_lobe": 3,
+    "angles_deg_from_tip": [
+      0,
+      90,
+      -90
+    ],
+    "rib_diameter_mm": 0.8,
+    "protrusion_mm": 0.25,
+    "interference_mm": 0.1,
+    "full_length_mm": 5.3,
+    "lead_in_mm": 1.5,
+    "engagement_before_stop_mm": [
+      6.75,
+      12.0
+    ],
+    "lobes_with_ribs": 16,
+    "script": "blender/nervature.py",
+    "data": "dati/nervature.json"
+  }
 }

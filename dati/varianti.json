@@ -11,15 +11,15 @@
   ],
   "label": "Appoggio unico",
   "file": "stl/varianti/A03_appoggio_unico_x1.stl",
-  "volume": 532275.7,
-  "volume_pezzi": 531459.9,
-  "riempimento_mm3": 815.8,
+  "volume": 532278.1,
+  "volume_pezzi": 531471.8,
+  "riempimento_mm3": 806.3,
   "componenti": 1,
   "nonmanifold": 0,
   "sporgenza_mm": 0.0,
   "dimensions_mm": [
    189.216,
-   117.684,
+   117.887,
    170.0
   ],
   "bounds": [
@@ -29,15 +29,15 @@
    ],
    [
     78.743,
-    196.427
+    196.63
    ],
    [
     197.717,
     386.933
    ]
   ],
-  "sbalzi_mm2": 12249,
-  "sbalzi_pezzi_separati_mm2": 14787
+  "sbalzi_mm2": 12247,
+  "sbalzi_pezzi_separati_mm2": 14790
  },
  "S04": {
   "pezzi": [
@@ -53,9 +53,9 @@
   ],
   "label": "Testa unica",
   "file": "stl/varianti/S04_testa_unica_x1.stl",
-  "volume": 1074455.2,
-  "volume_pezzi": 1072460.2,
-  "riempimento_mm3": 1994.9,
+  "volume": 1072624.8,
+  "volume_pezzi": 1070597.0,
+  "riempimento_mm3": 2027.8,
   "componenti": 1,
   "nonmanifold": 0,
   "sporgenza_mm": 0.0,
@@ -78,8 +78,8 @@
     386.933
    ]
   ],
-  "sbalzi_mm2": 15033,
-  "sbalzi_pezzi_separati_mm2": 21265
+  "sbalzi_mm2": 15030,
+  "sbalzi_pezzi_separati_mm2": 21268
  },
  "S05": {
   "pezzi": [
@@ -97,14 +97,14 @@
   ],
   "label": "Schienale unico",
   "file": "stl/varianti/S05_schienale_unico_x1.stl",
-  "volume": 1320398.3,
-  "volume_pezzi": 1317692.1,
-  "riempimento_mm3": 2706.2,
+  "volume": 1318597.7,
+  "volume_pezzi": 1315833.6,
+  "riempimento_mm3": 2764.1,
   "componenti": 1,
   "nonmanifold": 0,
   "sporgenza_mm": 0.0,
   "dimensions_mm": [
-   252.883,
+   253.132,
    187.757,
    170.0
   ],
@@ -118,12 +118,12 @@
     266.5
    ],
    [
-    134.05,
+    133.801,
     386.933
    ]
   ],
-  "sbalzi_mm2": 15059,
-  "sbalzi_pezzi_separati_mm2": 23369
+  "sbalzi_mm2": 15058,
+  "sbalzi_pezzi_separati_mm2": 23375
  },
  "B06": {
   "pezzi": [
@@ -135,15 +135,15 @@
   ],
   "label": "Raccordo con piede anteriore",
   "file": "stl/varianti/B06_raccordo_con_piede_x1.stl",
-  "volume": 262061.3,
-  "volume_pezzi": 261690.1,
-  "riempimento_mm3": 371.3,
+  "volume": 262068.5,
+  "volume_pezzi": 261702.0,
+  "riempimento_mm3": 366.5,
   "componenti": 1,
   "nonmanifold": 0,
   "sporgenza_mm": 0.0,
   "dimensions_mm": [
-   145.95,
-   85.95,
+   146.199,
+   86.199,
    98.0
   ],
   "bounds": [
@@ -153,14 +153,14 @@
    ],
    [
     170.0,
-    255.95
+    256.199
    ],
    [
     0.0,
-    145.95
+    146.199
    ]
   ],
-  "sbalzi_mm2": 5503,
-  "sbalzi_pezzi_separati_mm2": 4169
+  "sbalzi_mm2": 5506,
+  "sbalzi_pezzi_separati_mm2": 4172
  }
 }

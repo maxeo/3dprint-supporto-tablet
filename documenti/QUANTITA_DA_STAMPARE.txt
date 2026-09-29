@@ -14,3 +14,4 @@ PROVINI: 1 × provino_A_x1.stl; 1 × provino_B_x1.stl
 Verde: B01/B04/B05. Blu: B03/S01/S02. Giallo: S03/A01/A02. Usare il nuovo B03.
 
 TARATURA G015 SU TUTTI I PEZZI E I PROVINI STANDARD. Reimportare i file nello slicer.
+NERVATURE G015CR SU TUTTI I MODULI: provare prima prove/tolleranze/V7_G015CR_A/B_nervature.stl.

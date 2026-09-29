@@ -4,7 +4,7 @@
 
 Base composta da tre pezzi: **B01** anteriore corto e tozzo, **B04** posteriore sinistro, **B05** posteriore destro. Ciascuno ha un incastro doppio scorrevole indipendente nel nuovo **B03** blu. Stampare anche il B03 aggiornato: sostituisce la versione con una sola giunzione diagonale.
 
-Ogni gamba posteriore misura **240 mm dal centro del raccordo alla punta lungo il percorso del braccio**. Non è la lunghezza rettilinea del singolo STL. Il tratto finale orizzontale è lungo circa 131,824 mm prima del terminale arrotondato; spessore 3,5 mm e larghezza 24 mm. Il piede davanti misura 60 × 45,95 × 21 mm, incastro incluso.
+Ogni gamba posteriore misura **240 mm dal centro del raccordo alla punta lungo il percorso del braccio**. Non è la lunghezza rettilinea del singolo STL. Il tratto finale orizzontale è lungo circa 131,824 mm prima del terminale arrotondato; spessore 3,5 mm e larghezza 24 mm. Il piede davanti misura 60 × 46,2 × 21 mm, incastro incluso.
 
 Larghezza della base assemblata 306,50 mm; gruppo superiore largo 170 mm; quota dei piani di appoggio 220 mm. La nuova base richiede una verifica fisica di stabilità con il proprio tablet; non è dichiarata una portata.
 
@@ -14,21 +14,23 @@ Nove moduli, una copia ciascuno. Le due gambe hanno sedi e battute speculari: us
 
 | Sigla | Pezzo | Copie | Ingombro orientato X × Y × Z, mm |
 |---|---|---:|---|
-| B03 | Raccordo centrale blu | 1 | 145.95 × 51.9 × 98.0 |
-| B01 | Piede anteriore corto | 1 | 60.0 × 45.95 × 21.0 |
-| B04 | Gamba posteriore sinistra | 1 | 150.713 × 152.021 × 26.0 |
-| B05 | Gamba posteriore destra | 1 | 150.713 × 152.021 × 26.0 |
-| S01 | Schienale a Y | 1 | 141.9 × 33.488 × 170.0 |
-| S02 | Schienale superiore posteriore | 1 | 122.883 × 83.461 × 170.0 |
-| S03 | Appoggio superiore anteriore | 1 | 122.883 × 57.845 × 170.0 |
-| A01 | Appoggio sinistro | 1 | 78.233 × 82.62 × 56.667 |
-| A02 | Appoggio destro | 1 | 78.233 × 82.62 × 56.667 |
+| B03 | Raccordo centrale blu | 1 | 146.199 × 52.398 × 98.0 |
+| B01 | Piede anteriore corto | 1 | 60.0 × 46.199 × 21.0 |
+| B04 | Gamba posteriore sinistra | 1 | 150.713 × 152.27 × 26.0 |
+| B05 | Gamba posteriore destra | 1 | 150.713 × 152.27 × 26.0 |
+| S01 | Schienale a Y | 1 | 142.398 × 33.488 × 170.0 |
+| S02 | Schienale superiore posteriore | 1 | 123.132 × 83.664 × 170.0 |
+| S03 | Appoggio superiore anteriore | 1 | 123.132 × 58.048 × 170.0 |
+| A01 | Appoggio sinistro | 1 | 78.482 × 82.62 × 56.667 |
+| A02 | Appoggio destro | 1 | 78.482 × 82.62 × 56.667 |
 
-B01, B04 e B05 sono orientati piatti; gli altri moduli su un fianco. Le gambe occupano 150,713 × 152,021 mm sul piatto: con brim 3 mm arrivano a circa 158 mm, entro il margine massimo di 200 mm. Importare in millimetri al 100%, senza ridimensionare. Controllare supporti, sedi e punte sottili nello slicer.
+B01, B04 e B05 sono orientati piatti; gli altri moduli su un fianco. Le gambe occupano 150,713 × 152,27 mm sul piatto: con brim 3 mm arrivano a circa 158 mm, entro il margine massimo di 200 mm. Importare in millimetri al 100%, senza ridimensionare. Controllare supporti, sedi e punte sottili nello slicer.
 
 ## Incastri
 
 Double Jigsaw con due lobi contrapposti, collo 4,3 mm, lobo Ø5,9 mm, profondità 5,95 mm; gioco per superficie 0,15 mm e gioco frontale 0,20 mm. Ogni giunto ha una battuta e resta smontabile nel verso opposto. Stampare prima una copia di ciascun provino A e B. Non forzare gli incastri con martelli.
+
+**Nervature da schiacciare (G015CR), applicate a tutti i moduli.** Su ogni lobo maschio tre nervature a mezzo tondo Ø0,8 mm (punta e fianchi) che sporgono 0,25 mm: 0,10 mm di interferenza sul gioco di 0,15. Stanno solo sull'estremità che entra per ultima, con 1,5 mm di invito: il pezzo scorre libero e si impegna negli ultimi 7–12 mm prima della battuta (12 mm su G01, 7–9 mm sugli altri). Le nervature di punta allargano di 0,25 mm alcuni ingombri. Generate da `blender/nervature.py`, misure in `dati/nervature.json`. Stampare prima i provini `prove/tolleranze/V7_G015CR_*`: se l'ultimo tratto è troppo duro, ridurre la sporgenza prima di stampare i moduli.
 
 ## Montaggio
 
@@ -63,3 +65,5 @@ La faccia principale passa da 22.34° a 12.34° rispetto alla verticale: correzi
 Tutti i pioli contrapposti delle otto giunzioni sono maggiorati di 0,15 mm sul profilo. Sedi invariate. Lobo nominale Ø5,9 mm e collo 4,3 mm; gioco residuo nominale 0,15 mm per lato. I due provini standard prove/provino_A_x1.stl e prove/provino_B_x1.stl usano la stessa taratura. Reimportare i nuovi STL nello slicer: i progetti già aperti non si aggiornano automaticamente. Prima di ristampare tutti i moduli, verificare la coppia nuova: il risultato fisico non è ancora confermato.
 
 prove/tolleranze contiene copie esplicite G015 e una variante G010 più stretta, solo per confronto. G010 NON è applicata ai moduli del supporto.
+
+Provini G015CR (`prove/tolleranze/V7_G015CR_*_nervature.stl`): stessa G015 con nervature da schiacciare sui lobi. Ogni lobo ha 3 nervature a mezzo tondo Ø0,8 mm che sporgono di 0,25 mm (interferenza 0,10 mm), solo negli ultimi 6,5 mm di corsa prima della battuta e con invito di 1,5 mm: il pezzo scorre libero e si blocca a fine corsa. Le stesse nervature sono applicate agli otto giunti dei moduli (vedi Incastri).

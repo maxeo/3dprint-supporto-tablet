@@ -1,3 +1,9 @@
 G015: stessa taratura applicata a tutta la V7. Stampare A e B G015 insieme; non mescolare con i vecchi provini.
 G010: variante più stretta solo per confronto, non applicata al supporto.
 Per entrambe: sedi invariate; pioli maggiorati. Importare al 100%, stesso profilo e orientamento della prova precedente.
+
+G015CR (V7_G015CR_A_nervature.stl + V7_G015CR_B_nervature.stl): G015 con nervature da schiacciare (crush rib).
+- 3 nervature per lobo (punta e due fianchi), mezzo tondo Ø0,8 mm che sporge 0,25 mm: 0,10 mm di interferenza sul gioco di 0,15.
+- Solo sull'estremità del lobo che entra per ultima, con invito di 1,5 mm: scorre libero e si blocca negli ultimi ~6,5 mm prima della battuta.
+- Sedi e battuta invariate. Stampare in piedi come i G015 (nervature verticali). Confrontare con la coppia G015 liscia.
+- Applicato anche ai moduli del supporto (blender/nervature.py): stampare prima questi provini per controllare la durezza.

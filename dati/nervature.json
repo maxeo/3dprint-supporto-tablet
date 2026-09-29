@@ -1,0 +1,436 @@
+{
+ "parametri": {
+  "diametro_mm": 0.8,
+  "sporgenza_mm": 0.25,
+  "interferenza_mm": 0.1,
+  "pieno_mm": 5.3,
+  "invito_mm": 1.5,
+  "per_lobo": 3,
+  "presa_max_mm": 12.0
+ },
+ "lobi": [
+  {
+   "giunto": "G01",
+   "pezzo": "B03",
+   "n": 207.0,
+   "u": 15.6,
+   "x0": 60.9,
+   "x1": 109.1,
+   "punta": -1,
+   "lato": "lo",
+   "contro": "B01",
+   "presa_mm": 12.0
+  },
+  {
+   "giunto": "G01",
+   "pezzo": "B01",
+   "n": 213.0,
+   "u": 8.4,
+   "x0": 63.0,
+   "x1": 109.0,
+   "punta": 1,
+   "lato": "hi",
+   "contro": "B03",
+   "presa_mm": 12.0
+  },
+  {
+   "giunto": "G02",
+   "pezzo": "B03",
+   "n": 253.0,
+   "u": 15.6,
+   "x0": 55.8,
+   "x1": 79.1,
+   "punta": 1,
+   "lato": "hi",
+   "contro": "B04",
+   "presa_mm": 9.0
+  },
+  {
+   "giunto": "G02",
+   "pezzo": "B04",
+   "n": 247.0,
+   "u": 8.4,
+   "x0": 56.0,
+   "x1": 78.9,
+   "punta": -1,
+   "lato": "lo",
+   "contro": "B03",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G03",
+   "pezzo": "B03",
+   "n": 253.0,
+   "u": 15.6,
+   "x0": 90.8,
+   "x1": 114.1,
+   "punta": 1,
+   "lato": "lo",
+   "contro": "B05",
+   "presa_mm": 9.0
+  },
+  {
+   "giunto": "G03",
+   "pezzo": "B05",
+   "n": 247.0,
+   "u": 8.4,
+   "x0": 93.0,
+   "x1": 113.9,
+   "punta": -1,
+   "lato": "hi",
+   "contro": "B03",
+   "presa_mm": 7.25
+  },
+  {
+   "giunto": "G04",
+   "pezzo": "B03",
+   "n": 143.0,
+   "u": 246.6,
+   "x0": 36.8,
+   "x1": 77.2,
+   "punta": 1,
+   "lato": "lo",
+   "contro": "S01",
+   "presa_mm": 8.5
+  },
+  {
+   "giunto": "G04",
+   "pezzo": "S01",
+   "n": 137.0,
+   "u": 239.4,
+   "x0": 95.1,
+   "x1": 132.0,
+   "punta": -1,
+   "lato": "hi",
+   "contro": "B03",
+   "presa_mm": 8.0
+  },
+  {
+   "giunto": "G05",
+   "pezzo": "S01",
+   "n": 273.0,
+   "u": 261.1,
+   "x0": 0.8,
+   "x1": 55.8,
+   "punta": 1,
+   "lato": "lo",
+   "contro": "S02",
+   "presa_mm": 6.75
+  },
+  {
+   "giunto": "G05",
+   "pezzo": "S02",
+   "n": 267.0,
+   "u": 253.9,
+   "x0": 113.5,
+   "x1": 168.9,
+   "punta": -1,
+   "lato": "hi",
+   "contro": "S01",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G06",
+   "pezzo": "S02",
+   "n": 217.0,
+   "u": 381.1,
+   "x0": 0.9,
+   "x1": 169.2,
+   "punta": -1,
+   "lato": "lo",
+   "contro": "S03",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G06",
+   "pezzo": "S03",
+   "n": 223.0,
+   "u": 373.9,
+   "x0": 3.0,
+   "x1": 169.0,
+   "punta": 1,
+   "lato": "hi",
+   "contro": "S02",
+   "presa_mm": 6.75
+  },
+  {
+   "giunto": "G07",
+   "pezzo": "S03",
+   "n": 267.0,
+   "u": 164.1,
+   "x0": 0.8,
+   "x1": 55.8,
+   "punta": -1,
+   "lato": "hi",
+   "contro": "A01",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G07",
+   "pezzo": "A01",
+   "n": 273.0,
+   "u": 156.9,
+   "x0": 1.1,
+   "x1": 53.4,
+   "punta": 1,
+   "lato": "lo",
+   "contro": "S03",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G08",
+   "pezzo": "S03",
+   "n": 267.0,
+   "u": 164.1,
+   "x0": 114.2,
+   "x1": 169.2,
+   "punta": -1,
+   "lato": "lo",
+   "contro": "A02",
+   "presa_mm": 7.0
+  },
+  {
+   "giunto": "G08",
+   "pezzo": "A02",
+   "n": 273.0,
+   "u": 156.9,
+   "x0": 116.6,
+   "x1": 168.9,
+   "punta": 1,
+   "lato": "hi",
+   "contro": "S03",
+   "presa_mm": 7.0
+  }
+ ],
+ "pezzi": {
+  "B03": {
+   "file": "stl/pezzi_singoli/B03_raccordo_centrale_blu_x1.stl",
+   "prima": {
+    "volume": 212546.03,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 212555.56,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 12,
+   "dimensions_mm": [
+    146.199,
+    52.398,
+    98.0
+   ]
+  },
+  "B01": {
+   "file": "stl/pezzi_singoli/B01_piede_anteriore_corto_x1.stl",
+   "prima": {
+    "volume": 49144.04,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 49146.42,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 3,
+   "dimensions_mm": [
+    60.0,
+    46.199,
+    21.0
+   ]
+  },
+  "B04": {
+   "file": "stl/pezzi_singoli/B04_gamba_posteriore_sinistra_x1.stl",
+   "prima": {
+    "volume": 37123.93,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 37126.31,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 3,
+   "dimensions_mm": [
+    150.713,
+    152.27,
+    26.0
+   ]
+  },
+  "B05": {
+   "file": "stl/pezzi_singoli/B05_gamba_posteriore_destra_x1.stl",
+   "prima": {
+    "volume": 37064.67,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 37067.05,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 3,
+   "dimensions_mm": [
+    150.713,
+    152.27,
+    26.0
+   ]
+  },
+  "S01": {
+   "file": "stl/pezzi_singoli/S01_schienale_a_y_x1.stl",
+   "prima": {
+    "volume": 245231.89,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 245236.65,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 6,
+   "dimensions_mm": [
+    142.398,
+    33.488,
+    170.0
+   ]
+  },
+  "S02": {
+   "file": "stl/pezzi_singoli/S02_schienale_superiore_posteriore_x1.stl",
+   "prima": {
+    "volume": 539120.4,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 539125.16,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 6,
+   "dimensions_mm": [
+    123.132,
+    83.664,
+    170.0
+   ]
+  },
+  "S03": {
+   "file": "stl/pezzi_singoli/S03_appoggio_superiore_anteriore_x1.stl",
+   "prima": {
+    "volume": 292503.05,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 292510.19,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 9,
+   "dimensions_mm": [
+    123.132,
+    58.048,
+    170.0
+   ]
+  },
+  "A01": {
+   "file": "stl/pezzi_singoli/A01_appoggio_sinistro_x1.stl",
+   "prima": {
+    "volume": 119478.46,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 119480.84,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 3,
+   "dimensions_mm": [
+    78.482,
+    82.62,
+    56.667
+   ]
+  },
+  "A02": {
+   "file": "stl/pezzi_singoli/A02_appoggio_destro_x1.stl",
+   "prima": {
+    "volume": 119478.37,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "dopo": {
+    "volume": 119480.75,
+    "nonmanifold": 0,
+    "componenti": 1
+   },
+   "nervature": 3,
+   "dimensions_mm": [
+    78.482,
+    82.62,
+    56.667
+   ]
+  }
+ },
+ "verifica_sfilamento": {
+  "G01": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G02": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G03": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G04": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G05": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G06": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G07": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  },
+  "G08": {
+   "0": true,
+   "5": true,
+   "12.5": false,
+   "20": false,
+   "40": false
+  }
+ }
+}

@@ -114,6 +114,21 @@ for vid, pezzi, giunti, etichetta, nome_file in VARIANTI:
             boolean(fa, fb, 'INTERSECT'); elimina(fb)
             if len(fa.data.polygons): boolean(base, fa, 'UNION')
             elimina(fa)
+    # il riempimento può lasciare schegge staccate nella fessura in battuta (< 1 mm³): via
+    bm = bmesh.new(); bm.from_mesh(base.data); seen, via = set(), []
+    for v in bm.verts:
+        if v in seen: continue
+        comp, st = [v], [v]; seen.add(v)
+        while st:
+            x = st.pop()
+            for e in x.link_edges:
+                w = e.other_vert(x)
+                if w not in seen: seen.add(w); st.append(w); comp.append(w)
+        s = set(comp); fs = {f for u in comp for f in u.link_faces}
+        vol = sum(f.verts[0].co.dot(f.verts[i].co.cross(f.verts[i + 1].co)) for f in fs for i in range(1, len(f.verts) - 1)) / 6
+        if abs(vol) < 1.0: via += comp
+    if via: bmesh.ops.delete(bm, geom=via, context='VERTS'); bm.to_mesh(base.data)
+    bm.free()
     base.data.name = base.name
     # un solo colore: è un unico pezzo da stampare (gruppo del primo pezzo, A03 resta arancione)
     mat = bpy.data.materials.get({'A03': 'Appoggio', 'B06': 'Raccordo'}.get(vid, 'Schienale')) or bpy.data.materials['Schienale']
@@ -131,6 +146,11 @@ for vid, pezzi, giunti, etichetta, nome_file in VARIANTI:
     ps = base.copy(); ps.data = base.data.copy(); ps.name = ps.data.name = nome + '_stampa'
     ps.data.transform(R); mn = [min(v.co[i] for v in ps.data.vertices) for i in range(3)]
     ps.data.transform(Matrix.Translation(Vector(mn) * -1)); ps.location = (x_stampa, -820, 0)
+    # triangoli ad area nulla dei riempimenti: nell'STL diventerebbero spigoli aperti
+    bm = bmesh.new(); bm.from_mesh(ps.data)
+    bmesh.ops.remove_doubles(bm, verts=bm.verts[:], dist=1e-5)
+    bmesh.ops.dissolve_degenerate(bm, edges=bm.edges[:], dist=1e-6)
+    bm.to_mesh(ps.data); bm.free()
     x_stampa += st['dims'][0] + 40
     var_s.objects.link(ps)
     # STL della copia di stampa (in millimetri, origine sul piatto), scritto a mano:
